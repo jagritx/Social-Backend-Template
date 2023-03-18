@@ -6,7 +6,7 @@ Requires Node JS 14+
 
 #### [Postman Documentation](https://web.postman.co/documentation/16265497-68cea801-4839-4875-99f8-2c2420f18eda/publish?workspaceId=ce00e528-541b-4e20-848b-09e5d00a3b5a)
 
-Implemented using ES6 Standards
+Implemented using ES5+ Standards
 ## To Run
 ```sh
 git clone <link>
