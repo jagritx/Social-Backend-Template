@@ -1,0 +1,16 @@
+version: "3"
+services:
+  reunion:
+    container_name: reunion
+    restart: always
+    build: .
+    ports:
+      - "6000:6000"
+    depends_on:
+      - mongoapp
+
+  mongoapp:
+    container_name: mongoapp
+    image: mongo
+    ports:
+      - "27017:27017"
