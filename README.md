@@ -1,6 +1,6 @@
 # Social-Media-Backend (includes Tests)
 
-Wrote APIs for a Backend for a Social Media which supports Posting
+Wrote APIs (including Tests) for a Backend for a Social Media which includes Token Authentication, Follow, Posting, Linking, Commenting etc.
 
 Requires Node JS 14+
 
@@ -18,7 +18,7 @@ npm start
 
 ```sh
 MONGO
-JWT_SECRET
+JWT
 PORT
 ```
 
